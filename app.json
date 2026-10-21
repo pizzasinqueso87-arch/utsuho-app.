@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Utsuho fumo",
+    "slug": "utsuho-fumo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "owner": "0994109392",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#ffffff",
+    "icon": "./icon.png",
+    "android": {
+      "package": "com.reimu.utsuhofumo",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3aa2a84f-3205-4ec5-b123-14d79163fd61"
+      }
+    }
+  }
+}
